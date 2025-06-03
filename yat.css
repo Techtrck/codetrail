@@ -2,19 +2,30 @@
 h1
 {
   color:#ff0000;
+  font-weight:900;
+  line-hight:10px;
+  text-transform:capitalize;
+  font-size:40px;
 }
 h2
 {
   color: black;
+  font-weight:900;
 }
 button
 {
-  color:rgb(199, 14, 97);
-  background-color:black;
+  hight:50px;
+  width:200px;
+  color:#91144d;
+  background-color:#d9ae11;
+  border-radius:24px;
+  text-align:center;
+  border:1px dashed pink;
+  border-color:#594c4c;
 }
 h3
 {
-  color: yellow;
+  color: black;
 }
 h4
 {
@@ -24,11 +35,15 @@ p
 {
   color:black;
   text-align:center;
+  font-family:Sans-serif;
   
 }
 section
 {
  background-color:grey;
+  border-radius:24px;
+  text-align:center;
+  height:300px;.
 }
 .myclass
 {
@@ -49,8 +64,14 @@ footer
 
 #rt
 {
-  color:pink;
+  color:black;
   text-align:center;
   }
 
-  
+  footer
+{
+  background-color:#96145c;
+  width:410px;
+  color:#f5f5f5;
+  position:absolute;
+  }
