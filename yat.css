@@ -1,14 +1,15 @@
+
 h1
 {
-  color:red;
+  color:#ff0000;
 }
 h2
 {
-  color: pink;
+  color: black;
 }
 button
 {
-  color:yellow;
+  color:rgb(199, 14, 97);
   background-color:black;
 }
 h3
@@ -21,14 +22,35 @@ h4
 }
 p
 {
-  color:green;
+  color:black;
+  text-align:center;
+  
 }
 section
 {
-  color:rgb(255,o,o);
- background-color:black;
+ background-color:grey;
 }
 .myclass
 {
-  colour:magenta;
+  colour:green;
 }
+footer
+{
+  color:black
+    backround-color:yellow;
+}
+#box
+{
+  color:yellow;
+    background-color:black;
+  text-align:center;
+  
+}
+
+#rt
+{
+  color:pink;
+  text-align:center;
+  }
+
+  
