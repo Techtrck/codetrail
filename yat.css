@@ -79,4 +79,6 @@ footer
 body
 {
   background-image:url("hell.jpg");
+  background-attachment:fixed;
+  
 }
