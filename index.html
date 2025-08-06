@@ -3,33 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>AI Tools Directory</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <header class="head">
-        welcome to my port folio
+    <header>
+        <div class="container">
+            <h1><i class="fas fa-robot"></i> AI Tools Directory</h1>
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
     </header>
-     <br> <br> <br>
-   
-            <div class="slide"><h6>  hello world!</h3></div>
-                <br> <br> <br> <br> <br> <br> <br>
 
-     <section >
-     <div class="box11">
-      home
-     </div>
-     <div class="but">
-        hover me
-     </div>
-     </section>
-     <br><br><br><br><br><br><br><br><br><br><br>
-     <br>
-     <br>
-     
-    <footer class="foot1">
-    <u> all &copy; rights</u> are reserved by 2025
+    <main class="container">
+        <section class="intro">
+            <h2>Discover the Best AI Tools</h2>
+            <p>Explore our curated collection of cutting-edge AI tools and platforms to enhance your productivity and creativity.</p>
+        </section>
 
-     </footer>
+        <div class="tools-grid">
+            <!-- Claude AI -->
+            <div class="tool-card color-1" data-tooltip="Advanced AI assistant by Anthropic with superior reasoning capabilities and safety features. Perfect for complex conversations, coding, and creative tasks.">
+                <div class="tool-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3>Claude AI</h3>
+                <p>Advanced AI assistant by Anthropic with exceptional reasoning and safety features.</p>
+                <div class="tool-tags">
+                    <span class="tag">Conversational AI</span>
+                    <span class="tag">Coding</span>
+                    <span class="tag">Writing</span>
+                </div>
+                <a href="https://claude.ai" target="_blank" class="tool-link">
+                    Visit Claude AI <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+
+            <!-- ChatGPT -->
+            <div class="tool-card color-2" data-tooltip="OpenAI's flagship conversational AI model. Excellent for general conversations, content creation, and problem-solving across various domains.">
+                <div class="tool-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h3>ChatGPT</h3>
+                <p>OpenAI's powerful conversational AI for general-purpose assistance and creativity.</p>
+                <div class="tool-tags">
+                    <span class="tag">Chat</span>
+                    <span class="tag">Content</span>
+                    <span class="tag">Research</span>
+                </div>
+                <a href="https://chat.openai.com" target="_blank" class="tool-link">
+                    Visit ChatGPT <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+
+            <!-- Midjourney -->
+            <div class="tool-card color-3" data-tooltip="Leading AI image generation platform creating stunning artwork from text descriptions. Popular among artists and designers for creative projects.">
+                <div class="tool-icon">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <h3>Midjourney</h3>
+                <p>AI-powered image generation tool for creating stunning artwork from text prompts.</p>
+                <div class="tool-tags">
+                    <span class="tag">Image Generation</span>
+                    <span class="tag">Art</span>
+                    <span class="tag">Design</span>
+                </div>
+                <a href="https://midjourney.com" target="_blank" class="tool-link">
+                    Visit Midjourney <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+
+            <!-- GitHub Copilot -->
+            <div class="tool-card color-4" data-tooltip="AI pair programmer that helps you write code faster with intelligent code suggestions and completions directly in your IDE.">
+                <div class="tool-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <h3>GitHub Copilot</h3>
+                <p>AI pair programmer that assists with code completion and suggestions.</p>
+                <div class="tool-tags">
+                    <span class="tag">Coding</span>
+                    <span class="tag">Development</span>
+                    <span class="tag">Productivity</span>
+                </div>
+                <a href="https://github.com/features/copilot" target="_blank" class="tool-link">
+                    Visit GitHub Copilot <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+
+            <!-- Notion AI -->
+            <div class="tool-card color-5" data-tooltip="AI writing assistant integrated into Notion workspace. Helps with content creation, summarization, and brainstorming within your notes and documents.">
+                <div class="tool-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <h3>Notion AI</h3>
+                <p>AI-powered writing assistant integrated into Notion workspace for enhanced productivity.</p>
+                <div class="tool-tags">
+                    <span class="tag">Writing</span>
+                    <span class="tag">Productivity</span>
+                    <span class="tag">Notes</span>
+                </div>
+                <a href="https://notion.so/product/ai" target="_blank" class="tool-link">
+                    Visit Notion AI <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+
+            <!-- Stable Diffusion -->
+            <div class="tool-card color-6" data-tooltip="Open-source AI image generation model that runs locally or in the cloud. Offers high-quality image synthesis with full control over the generation process.">
+                <div class="tool-icon">
+                    <i class="fas fa-image"></i>
+                </div>
+                <h3>Stable Diffusion</h3>
+                <p>Open-source AI model for high-quality image generation and manipulation.</p>
+                <div class="tool-tags">
+                    <span class="tag">Image Generation</span>
+                    <span class="tag">Open Source</span>
+                    <span class="tag">Customizable</span>
+                </div>
+                <a href="https://stability.ai" target="_blank" class="tool-link">
+                    Visit Stable Diffusion <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+
+            <!-- Jasper AI -->
+            <div class="tool-card color-7" data-tooltip="AI content creation platform designed for marketing teams. Specializes in generating marketing copy, blog posts, and social media content at scale.">
+                <div class="tool-icon">
+                    <i class="fas fa-pen-fancy"></i>
+                </div>
+                <h3>Jasper AI</h3>
+                <p>AI content creation platform for marketing copy and creative writing.</p>
+                <div class="tool-tags">
+                    <span class="tag">Marketing</span>
+                    <span class="tag">Content</span>
+                    <span class="tag">Copywriting</span>
+                </div>
+                <a href="https://jasper.ai" target="_blank" class="tool-link">
+                    Visit Jasper AI <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+
+            <!-- Perplexity AI -->
+            <div class="tool-card color-1" data-tooltip="AI-powered search engine that provides accurate, real-time answers with source citations. Great for research and fact-checking with transparent sourcing.">
+                <div class="tool-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3>Perplexity AI</h3>
+                <p>AI-powered search engine providing accurate answers with source citations.</p>
+                <div class="tool-tags">
+                    <span class="tag">Search</span>
+                    <span class="tag">Research</span>
+                    <span class="tag">Citations</span>
+                </div>
+                <a href="https://perplexity.ai" target="_blank" class="tool-link">
+                    Visit Perplexity AI <i class="fas fa-external-link-alt"></i>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 AI Tools Directory. Discover the future of artificial intelligence.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
